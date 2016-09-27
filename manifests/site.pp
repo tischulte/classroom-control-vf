@@ -46,6 +46,5 @@ node default {
  exec { 'labupdate':
   path => '/etc',
   creates => '/etc/motd
-  content => "cowsay 'Welcome to ${::fqdn}!' > /etc/motd"
   }
 }
