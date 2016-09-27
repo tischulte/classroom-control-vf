@@ -43,10 +43,10 @@ node default {
   # Example:
   #   class { 'my_class': }
   notify { "Hello, my name is ${::hostname}": }
-  file { '/etc/motd':
+  file {'/etc/motd':
     ensure => file,
-    ownerr => 'root',
+    owner => 'root',
     group => 'root',
-    content => "Puppet yah!\n",
+    content => "Puppet yah\n",
     }
 }
