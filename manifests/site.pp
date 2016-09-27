@@ -44,9 +44,5 @@ node default {
   #   class { 'my_class': }
   notify { "Hello, my name is ${::hostname}": }
   
- user {'fundamentals':
-  ensure => present,
-  }
- include users
-  
+ 
 }
