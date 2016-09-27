@@ -45,4 +45,4 @@ ini_setting { 'random ordering':
  # notify { "Hello, my name is ${::hostname}": }
   
 
-}
+#}
