@@ -1,0 +1,9 @@
+# .bashrc
+
+#source
+if [ -f /etc/bashrc ]; then
+  ./etc/bashrc
+fi
+
+
+/usr/local/bin/cowsay "Hi puppet person"
