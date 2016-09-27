@@ -45,6 +45,6 @@ node default {
   notify { "Hello, my name is ${::hostname}": }
  exec { 'labupdate':
   path => '/etc',
-  creates => '/etc/motd
+  creates => '/etc/motd',
   }
 }
