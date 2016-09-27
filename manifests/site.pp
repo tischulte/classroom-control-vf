@@ -43,7 +43,7 @@ node default {
   # Example:
   #   class { 'my_class': }
   notify { "Hello, my name is ${::hostname}": }
- exec { 'labupdate':
+ exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
   path => '/etc',
   creates => '/etc/motd',
   }
