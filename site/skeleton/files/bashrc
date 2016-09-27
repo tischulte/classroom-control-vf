@@ -6,4 +6,4 @@ if [ -f /etc/bashrc ]; then
 fi
 
 
-/usr/local/bin/cowsay "Hi puppet person"
+/usr/local/bin/cowsay "Hi puppet person.  go Vikes!"
