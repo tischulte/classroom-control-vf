@@ -25,4 +25,4 @@ $default_docroot = 'C:/ProgramData/nginx/html'
 default : {
 fail("Module ${module_name} is not supported on ${::osfamily}")
 }
-}
+
