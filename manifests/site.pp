@@ -43,13 +43,8 @@ ini_setting { 'random ordering':
   # Example:
   #   class { 'my_class': }
  # notify { "Hello, my name is ${::hostname}": }
- 
 node default {
-if $::virtual != 'physical' {
-  $vmname = capitalize($::virtual)
-  notify { "This is a ${vmname} virtual machine.": }
- } 
-$message = hiera('message')
-notify { $message: }
- 
+class { 'nginx':
+root => '/var/www/html',
+}
 }
