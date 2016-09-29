@@ -47,4 +47,4 @@ ini_setting { 'random ordering':
 #class { 'nginx':
 #root => '/var/www/html',
 #}
-}
+
