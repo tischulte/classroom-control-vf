@@ -43,8 +43,8 @@ ini_setting { 'random ordering':
   # Example:
   #   class { 'my_class': }
  # notify { "Hello, my name is ${::hostname}": }
-node default {
-class { 'nginx':
-root => '/var/www/html',
-}
+#node default {
+#class { 'nginx':
+#root => '/var/www/html',
+#}
 }
